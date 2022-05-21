@@ -16,6 +16,11 @@
 #left{
 
 }
+#logo img{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
 #nav{
 	height: 20vh;
 	width: 100%;
@@ -104,6 +109,19 @@ button:hover{
 
 @media only screen and (max-width:500px){
 
+	#logo{
+		text-align: left;
+	width: 40%;
+	margin: 5%;
+	}
+	#logo img{
+		margin-left: 0px;
+	}
+	#menu-img{
+		width: 50%;
+    	display: flex;
+    	justify-content: right;
+	}
 	.all {
 	    width: 100%;
 	}
@@ -128,9 +146,6 @@ button:hover{
 	}
 	#nav ul li a{
 		color: #fff;
-	}
-	#menu-img{
-		display: block;
 	}
 	#menulist{
 		overflow: hidden;

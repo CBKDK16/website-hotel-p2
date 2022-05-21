@@ -6,6 +6,11 @@
 body{
 	background-color: grey;
 }
+#logo img{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
 #menu-img{
 	display: none;
 	cursor: pointer;
@@ -114,9 +119,20 @@ body{
 
 @media only screen and (max-width: 810px)
 {
-	#menu-img{
-		display: block;
+	#logo{
+		text-align: left;
+	width: 40%;
+	margin: 5%;
 	}
+	#logo img{
+		margin-left: 0px;
+	}
+	#menu-img{
+		width: 50%;
+    	display: flex;
+    	justify-content: right;
+	}
+	
 	#menulist{
 		overflow: hidden;
 		transition: 0.5s;
@@ -172,3 +188,9 @@ body{
 	    font-size: 8px;
 	}
 }
+.image{
+	margin: 100%;
+}
+
+
+

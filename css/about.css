@@ -12,7 +12,11 @@
 	height: 100%;
 	width: 50%;
 }
-
+#logo img{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
 #left{
 
 }
@@ -59,7 +63,7 @@
     align-items: center;
 }
 #right img{
-	height: 90%;
+	width: 90%;
     margin: 5%;
 }
 #about{
@@ -85,10 +89,21 @@
 
 @media only screen and (max-width: 700px)
 {
-	/*Ham Burger*/
-	#menu-img{
-		display: block;
+	#logo{
+		text-align: left;
+	width: 40%;
+	margin: 5%;
 	}
+	#logo img{
+		margin-left: 0px;
+	}
+	#menu-img{
+		width: 50%;
+    	display: flex;
+    	justify-content: right;
+	}
+
+	/*Ham Burger*/
 	#nav ul li a:hover{
 		color: #450924;
 	}
